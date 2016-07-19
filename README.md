@@ -1,4 +1,4 @@
-# 说明
+## 说明
   使用的分词包:*Rwordseg*  
   使用的文本挖掘模型：  
   * *LDA* 主题模型 
@@ -6,28 +6,33 @@
   * *word2vec*  
   * *Apriori* 购物篮关联分析
   
-## 测试系统环境:  
+## 测试系统环境
   * Centos 6.4 x64
   * Intel(R) Xeon(R) CPU E5-2603 v2  
   * 64GB ram  
   * R 3.2.0 64-bit  
-  ## R依赖包：  
-  ```
+
+## R依赖包  
+```
   req_packs <-
   c(
     "openxlsx","tm","tmcn","tmcn.word2vec","Rwordseg","RColorBrewer","wordcloud","snow","slam","topicmodels",
     "ggplot2","SnowballC","cluster","fpc","ape","plotrix","optparse","arules"
   )
-  ```
+```
   
-  ## 输出目录
+## 输出目录
+  目录名  
 ```
     wmjq_*  
 ```
-  ### 示例输出
-     wmjq_result_29
-  
-  ```
+### 示例输出
+  目录名  
+```
+   wmjq_result_29
+```
+  示例输出文件列表
+```
 total 2.5M
 -rw-r--r-- 1 rstudio2 pf-datanalyze 178K Dec 16  2015 sample_clean_rsw.txt
 -rw-r--r-- 1 rstudio2 pf-datanalyze 111K Dec 16  2015 hot_words_fan_clusters.png
@@ -78,5 +83,5 @@ total 2.5M
 -rw-r--r-- 1 rstudio2 pf-datanalyze    0 Dec 16  2015 stem_syn_content.txt
 -rw-r--r-- 1 rstudio2 pf-datanalyze  56K Dec 16  2015 topic 7.png
 
-  ```
-
+```
+ 
