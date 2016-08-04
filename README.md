@@ -31,6 +31,22 @@
 ```
    wmjq_result_29
 ```
+  评论分类概览图  
+  ![](https://github.com/vcbin/R-comment_mining/blob/master/wmjq_result_29/comments%20pie%20chart.png)  
+  
+    
+  评论热词分类树形图
+  ![](https://github.com/vcbin/R-comment_mining/blob/master/wmjq_result_29/hot_words_dendogram.png)  
+  
+    
+  购物篮分析之节目人物关系图
+  ![](https://github.com/vcbin/R-comment_mining/blob/master/wmjq_result_29/arulesViz.png)  
+  
+    
+  评论热词分类扇形图
+  ![](https://github.com/vcbin/R-comment_mining/blob/master/wmjq_result_29/hot_words_fan_clusters.png)  
+  
+    
   示例输出文件列表
 ```
 total 2.5M
